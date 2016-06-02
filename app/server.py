@@ -25,7 +25,7 @@ def httpHandler():
 @asyncio.coroutine
 def receive_send(websocket, path):
   # Please write your code here
-  print(str(websocket.recv())+"----------------------------------")
+  # print(str(websocket.recv())+"----------------------------------")
   try:
     print("Receiving ...")
   except KeyboardInterrupt:
